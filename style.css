@@ -1,0 +1,11 @@
+.menu-bar{
+    background-color: black;
+    box-shadow: 1px 1px 3px 0 black;
+}
+.menu ul{
+    display: flex;
+}
+.menu{
+    display: block;
+    text-decoration: ;
+}
