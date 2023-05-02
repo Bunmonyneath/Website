@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.container-fluid {
+    box-shadow: 0px 0px 10px black;
+}
+
+.header-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    padding: .5rem;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 1rem;
+    color: darkcyan;
+}
+
+.menu ul li a:hover {
+    color: rgb(24, 244, 244);
+}
+
+.image-slider {
+    height: 100vh;
+    width: 100%;
+}
+
+/* .carousel-inner */

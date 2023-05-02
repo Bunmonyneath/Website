@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    text-decoration: none;
+
+}
+
+html {
+    font-size: 60%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    padding: 1rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: -1000; */
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+header .logo {
+    font-size: 3rem;
+    color: blue;
+    font-weight: bold;
+}
+
+header .navbar a {
+    font-size: 2rem;
+    padding: 1rem;
+    color: blue;
+}
+
+header .navbar a:hover {
+    color: darkblue;
+}
+
+header .icons a {
+    font-size: 2rem;
+}
+
+header .fa-bars {
+    font-size: 3rem;
+    color: blue;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width:991px) {
+    html {
+        font-size: 55%;
+    }
+
+    header {
+        padding: 2rem;
+    }
+}
+
+@media (max-width:768px) {
+    header .fa-bars {
+        display: block;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: white;
+        border-top: .1rem solid black;
+    }
+
+    header .navbar a {
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background-color: white;
+        border: .1rem solid black;
+    }
+}
+
+@media (max-width:450px) {}
+
+/* .home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(https://img.freepik.com/free-photo/copy-space-roses_23-2148860001.jpg?w=1060&t=st=1683014288~exp=1683014888~hmac=6015f95c7a31c2e7286bbb1ddd5b3266fc8caf6b29649e8f514eb0086d70e336);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.home {
+    background-color: black;
+    margin-top: 75px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/free-photo/copy-space-roses_23-2148860001.jpg?w=1060&t=st=1683014288~exp=1683014888~hmac=6015f95c7a31c2e7286bbb1ddd5b3266fc8caf6b29649e8f514eb0086d70e336);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
